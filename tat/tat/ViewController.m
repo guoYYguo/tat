@@ -20,6 +20,7 @@
     lbl.textAlignment = NSTextAlignmentCenter;
     lbl.text = @"TAT";
     [self.view addSubview:lbl];
+    lbl.backgroundColor = [UIColor blueColor];
     lbl.frame = CGRectMake(30, 50, 300, 100);
 }
 
